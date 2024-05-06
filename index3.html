@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!--<script src="script.js"></script>-->
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="space-1">
+      <br />
+    </div>
+
+    <div id="header_box">
+      <div class="header_button" id="header_button_1"></div>
+      <div class="header_button" id="header_button_2">ABOUT</div>
+      <div class="header_button" id="header_button_3">CONTACT US</div>
+      <div class="header_button" id="header_button_4">SHOP</div>
+    </div>
+
+    <div id="space0">
+      <br />
+    </div>
+
+    <div id="header_1">
+      <div class="header_text" id="header_text_1" onclick="selected(this)">
+        <p>ANTI</p>
+        <p>PROCRASTINATION</p>
+      </div>
+      <div class="header_text" id="header_text_2" onclick="selected(this)">
+        <p>PROCRASTINATION</p>
+        <p>CLUB</p>
+      </div>
+    </div>
+
+    <div id="space1">
+      <br />
+      <br />
+    </div>
+
+    <div id="Step 1">
+      <h1>STEP 1</h1>
+      <h3>WHICH SYMPTOMPS DO YOU OBERVE?</h3>
+      <h3>SELECT ALL THAT APPLY</h3>
+    </div>
+
+    <div id="space2">
+      <br />
+      <br />
+      <br />
+    </div>
+
+    <div id="page_1_boxes">
+      <div class="page_1" id="page_1_box_1" onclick="selected(this)">
+        ABANDON TASKS EASILY
+      </div>
+      <div class="page_1" id="page_1_box_2" onclick="selected(this)">
+        DISTRACTING YOURSELF WITH CHORES
+      </div>
+      <div class="page_1" id="page_1_box_3" onclick="selected(this)">
+        ESCAPING TO SOCIAL MEDIA APPS
+      </div>
+      <div class="page_1" id="page_1_box_4" onclick="selected(this)">
+        ESCAPING TO VIDEO GAMES
+      </div>
+      <div class="page_1" id="page_1_box_5" onclick="selected(this)">
+        EATING OUT OF BOREDOM / WHEN NOT HUNGRY
+      </div>
+      <div class="page_1" id="page_1_box_6" onclick="selected(this)">
+        item 6
+      </div>
+      <div class="page_1" id="page_1_box_7" onclick="selected(this)">
+        item 7
+      </div>
+      <div class="page_1" id="page_1_box_8" onclick="selected(this)">
+        item 8
+      </div>
+      <div class="page_1" id="page_1_box_9" onclick="selected(this)">
+        item 9
+      </div>
+      <div class="page_1" id="page_1_box_10" onclick="selected(this)">
+        item 10
+      </div>
+    </div>
+
+    <div id="space3">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
+
+    <div id="NEXT">
+      <h1>CONTINUE</h1>
+    </div>
+  </body>
+</html>
+
+<script>
+  function changeColor_1_1(event) {
+    var color = "#000000";
+    event.style.backgroundColor = color;
+    document.getElementById("p4_1_1").style.color = "#000000";
+  }
+
+  var count = 0;
+  var button = document.getElementById("page_1_box_1");
+  var result = document.getElementById("result");
+  button.onclick = function () {
+    count++;
+    result.innerHTML = count;
+  };
+</script>

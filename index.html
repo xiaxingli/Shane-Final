@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!--<script src="script.js"></script>-->
+    <script src="scripts.js"></script>
+    <script src="html2canvas.js"></script>
+
+  </head>
+  <body>
+    <!--
+    <div id="space-1">
+      <br />
+    </div>
+
+    <div id="header_box">
+      <div class="header_button" id="header_button_1"></div>
+      <div class="header_button" id="header_button_2">ABOUT</div>
+      <div class="header_button" id="header_button_3">CONTACT US</div>
+      <div class="header_button" id="header_button_4">SHOP</div>
+    </div>
+
+    <div id="space0">
+      <br />
+    </div>
+-->
+    <div id="all">
+      <div id="header_1">
+        <div class="header_text" id="header_text_1" onclick="selected(this)">
+          <p>ANTI</p>
+          <p>PROCRASTINATION</p>
+        </div>
+        <div class="header_text" id="header_text_2" onclick="selected(this)">
+          <p>PROCRASTINATION</p>
+          <p>CLUB</p>
+        </div>
+      </div>
+
+      <div id="space1">
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
+
+      <div id="page_1">
+        <div id="Step_1_1">
+          <h1>STEP 1</h1>
+        </div>
+
+        <div id="Step_1_2">
+          <h3>WHICH SYMPTOMPS DO YOU OBERVE?</h3>
+          <h3>SELECT ALL THAT APPLY</h3>
+        </div>
+
+        <div id="space2">
+          <br />
+          <br />
+          <br />
+        </div>
+
+        <div id="page_1_boxes">
+          <div class="page_1" id="page_1_box_1" onclick=changeColor_1_1(this)>Wander around</div>
+          <div class="page_1" id="page_1_box_2" onclick=changeColor_1_2(this)>Eating out of boredom</div>
+          <div class="page_1" id="page_1_box_3" onclick=changeColor_1_3(this)>Shopping</div>
+          <div class="page_1" id="page_1_box_4" onclick=changeColor_1_4(this)>
+            Distracting yourself with chores
+          </div>
+          <div class="page_1" id="page_1_box_5" onclick=changeColor_1_5(this)>Abandon task easily</div>
+          <div class="page_1" id="page_1_box_6" onclick=changeColor_1_6(this)>Hard to focus</div>
+          <div class="page_1" id="page_1_box_7" onclick=changeColor_1_7(this)>social media / video games</div>
+          <div class="page_1" id="page_1_box_8" onclick=changeColor_1_8(this)>Reschedule</div>
+          <div class="page_1" id="page_1_box_9" onclick=changeColor_1_9(this)>Socialize / complain</div>
+          <div class="page_1" id="page_1_box_10" onclick=changeColor_1_10(this)>Wanting to nap</div>
+        </div>
+
+
+        <div id="space3">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
+
+        <div id="NEXT">
+          <a href="#page_2">CONTINUE</a>
+        </div>
+
+        <div id="space4">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
+      </div>
+
+      <div id="page_2">
+        <div id="space4.5">
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
+
+        <div id="Step_2_1">
+          <h4>STEP 2</h4>
+        </div>
+
+        <div id="Step_2_2">
+          <h3>WHICH ITMES DESCRIBE YOUR CURRENT FEELINGS?</h3>
+          <h3>SELECT ALL THAT APPLY</h3>
+        </div>
+
+        <div id="space5">
+          <br />
+          <br />
+          <br />
+        </div>
+
+        <div id="page_2_boxes">
+          <div class="page_2" id="page_2_box_1" onclick=changeColor_2_1(this)>
+            Guilty
+          </div>
+          <div class="page_2" id="page_2_box_2" onclick=changeColor_2_2(this)>
+            Feeling inadequate
+          </div>
+          <div class="page_2" id="page_2_box_3" onclick=changeColor_2_3(this)>
+            Depressed
+          </div>
+          <div class="page_2" id="page_2_box_4" onclick=changeColor_2_4(this)>
+            Anxious
+          </div>
+          <div class="page_2" id="page_2_box_5" onclick=changeColor_2_5(this)>
+            Stressed about quality of work
+          </div>
+          <div class="page_2" id="page_2_box_6" onclick=changeColor_2_6(this)>
+            Disappointed at self
+          </div>
+          <div class="page_2" id="page_2_box_7" onclick=changeColor_2_7(this)>
+            Overwhelmed
+          </div>
+          <div class="page_2" id="page_2_box_8" onclick=changeColor_2_8(this)>
+            Stressed about missing deadline
+          </div>
+          <div class="page_2" id="page_2_box_9" onclick=changeColor_2_9(this)>
+            Hoping for savior
+          </div>
+          <div class="page_2" id="page_2_box_10" onclick=changeColor_2_10(this)>
+            Wanting to quit
+          </div>
+        </div>
+
+        <div id="space6">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
+
+        <div id="NEXT_2">
+          <a href="#page_3">CONTINUE</a>
+        </div>
+
+        <div id="space7">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
+      </div>
+
+      <div id="page_3">
+        <div id="space7.5">
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
+        <div id="Step_3_1">
+          <h4>STEP 3</h4>
+        </div>
+
+        <div id="Step_3_2">
+          <h3>WHICH OF THE DEEPER REASONS DO YOU IDENTIFY WITH TODAY</h3>
+          <h3>SELECT ALL THAT APPLY</h3>
+        </div>
+
+        <div id="space8">
+          <br />
+          <br />
+          <br />
+        </div>
+
+        <div id="page_3_boxes">
+          <div class="page_3" id="page_3_box_1" onclick=changeColor_3_1(this)>
+            Afraid of failing
+          </div>
+          <div class="page_3" id="page_3_box_2" onclick=changeColor_3_2(this)>
+            Worry about not measuring up
+          </div>
+          <div class="page_3" id="page_3_box_3" onclick=changeColor_3_3(this)>
+            Deterred by thorny issues
+          </div>
+          <div class="page_3" id="page_3_box_4" onclick=changeColor_3_4(this)>
+            Avoid challenges
+          </div>
+          <div class="page_3" id="page_3_box_5" onclick=changeColor_3_5(this)>
+            Unreasonable expectation
+          </div>
+          <div class="page_3" id="page_3_box_6" onclick=changeColor_3_6(this)>
+            (Perceived) High Stake + Self Pressure
+          </div>
+          <div class="page_3" id="page_3_box_7" onclick=changeColor_3_7(this)>
+            Easily Distracted
+          </div>
+          <div class="page_3" id="page_3_box_8" onclick=changeColor_3_8(this)>
+            Poor Environment
+          </div>
+          <div class="page_3" id="page_3_box_9" onclick=changeColor_3_9(this)>
+            Resenting the task
+          </div>
+          <div class="page_3" id="page_3_box_10" onclick=changeColor_3_10(this)>
+            Ambiguity
+          </div>
+        </div>
+
+        <div id="space9">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
+
+        <div id="NEXT_3">
+          <a href="#page_4">CONTINUE</a>
+        </div>
+
+        <div id="space10">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
+      </div>
+
+      <div class="result_page" id="page_4">
+        <div id="space10.5">
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
+        <div id="Step_4_1">
+          <h4>SUMMARY</h4>
+        </div>
+
+        <div id="Step_4_2">
+          <h3>DON'T WORRY, IT BE LIKE THAT SOMETIMES</h3>
+          <h3>REMEMBER YOU'RE EXACTLY WHERE YOU'RE SUPPOSED TO BE RIGHT NOW</h3>
+        </div>
+
+        <div id="space11">
+          <br />
+          <br />
+          <br />
+        </div>
+
+        <div id="page_4_boxes">
+          <div class="page_4" id="page_4_box_1" onclick="selected(this)">
+            <h1>BEHAVIORS</h1>
+            <h5 id="p4_1_1">Wander around</h5>
+            <h5 id="p4_1_2">Eating out of boredom</h5>
+            <h5 id="p4_1_3">Shopping</h5>
+            <h5 id="p4_1_4">Distracting yourself with chores</h5>
+            <h5 id="p4_1_5">Abandon task easily</h5>
+            <h5 id="p4_1_6">Hard to focus</h5>
+            <h5 id="p4_1_7">social media / video games</h5>
+            <h5 id="p4_1_8">Reschedule</h5>
+            <h5 id="p4_1_9">Socialize / complain</h5>
+            <h5 id="p4_1_10">Wanting to nap</h5>
+          </div>
+
+          <div class="page_4" id="page_4_box_2" onclick="selected(this)">
+            <h1>FEELINGS</h1>
+            <h5 id="p4_2_1">Guilty</h5>
+            <h5 id="p4_2_2">Feeling inadequate</h5>
+            <h5 id="p4_2_3">Depressed</h5>
+            <h5 id="p4_2_4">Anxious</h5>
+            <h5 id="p4_2_5">Stressed about quality of work</h5>
+            <h5 id="p4_2_6">Disappointed at self</h5>
+            <h5 id="p4_2_7">Overwhelmed</h5>
+            <h5 id="p4_2_8">Stressed about missing deadline</h5>
+            <h5 id="p4_2_9">Hoping for savior</h5>
+            <h5 id="p4_2_10">Wanting to quit</h5>
+          </div>
+
+          <div class="page_4" id="page_4_box_3" onclick="selected(this)">
+            <h1>REASONS</h1>
+            <h5 id="p4_3_1">Afraid of failing</h5>
+            <h5 id="p4_3_2">Worry about not measuring up</h5>
+            <h5 id="p4_3_3">Deterred by thorny issues</h5>
+            <h5 id="p4_3_4">Avoid challenges</h5>
+            <h5 id="p4_3_5">Unreasonable expectation</h5>
+            <h5 id="p4_3_6">(Perceived) High Stake + Self Pressure</h5>
+            <h5 id="p4_3_7">Easily Distracted</h5>
+            <h5 id="p4_3_8">Poor Environment</h5>
+            <h5 id="p4_3_9">Resenting the task</h5>
+            <h5 id="p4_3_10">Ambiguity</h5>
+          </div>
+
+        </div>
+
+        <div id="space12">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
+
+        <!--
+        <div class="PRINT_BUTTON" id="NEXT_4">
+          <a href="#page_4" onclick=capture()>PRINT</a>
+        </div>
+        -->
+
+        <div id="NEXT_4.5">
+          <button class="takeImageBtn">PRINT</button>
+        </div>
+
+        <div id="NEXT_5">
+          <a href=#top>RETURN</a>
+        </div>
+
+        <div id="space13">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
+
+        <div>
+          <p id="result"></p>
+          <!--
+          <script>
+             var count = 0;
+             var button = document.getElementById("page_1_box_1");
+             var result = document.getElementById("result");
+             button.onclick = function() {
+                count++;
+                result.innerHTML = count;
+             }
+          </script>
+          -->
+
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
